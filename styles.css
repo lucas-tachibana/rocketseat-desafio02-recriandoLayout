@@ -1,0 +1,32 @@
+:root {
+  --bg-primary: #2F2E41;
+  --highlight-color: #00BFA6;
+  --text-color-primary: #FFFFFF;
+  --text-color-secondary: #C2C2C2;
+  --font-family-secondary: 'Open Sans', sans-serif;
+
+  font-family: 'JetBrains Mono', monospace;
+
+}
+
+body {
+  background-color: var(--bg-primary);
+  padding: 70px 100px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+  gap: 64px;
+}
+
+.header ul li a {
+  text-decoration: none;
+  color: var(--text-color-primary);
+}
