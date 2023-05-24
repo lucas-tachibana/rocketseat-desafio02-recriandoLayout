@@ -11,10 +11,12 @@
 
 body {
   background-color: var(--bg-primary);
-  padding: 70px 100px;
+  color: var(--text-color-primary);
 }
 
 .header {
+  width: 1080px;
+  margin: 70px auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -29,4 +31,32 @@ body {
 .header ul li a {
   text-decoration: none;
   color: var(--text-color-primary);
+}
+
+main {
+  width: 1090px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  gap: 77px;
+  text-align: center;
+}
+
+.content {
+  max-width: 600px;
+}
+
+.content h1 {
+  margin: 0;
+}
+
+.content span {
+  font-weight: bold;
+  color: var(--highlight-color);
+}
+
+.content p {
+  margin-top: 60px;
+  font-family: var(--font-family-secondary);
+  color: var(--text-color-secondary);
 }
